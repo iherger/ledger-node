@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "ledger-node",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@ledgerhq/hw-app-btc": "^4.38.6",
+    "@ledgerhq/hw-app-eth": "^4.38.6",
+    "@ledgerhq/hw-transport-node-hid": "^4.38.6",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  }
+}
